@@ -1,0 +1,12 @@
+bunsen-openbox for Debian
+-------------------------
+
+At present, this package generates a BunsenLabs copy of 
+/usr/lib/*/openbox-autostart, named openbox-autostart.bunsen,
+commenting out the line which sets the background colour.
+Then dpkg-divert and symlinking are used so that openbox-autostart.bunsen
+is used by openbox.
+
+On removal of this package, the original file is restored.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 18 Jul 2018 16:48:55 +0900

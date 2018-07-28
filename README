@@ -1,0 +1,12 @@
+bunsen-openbox
+==============
+
+This package modifies the behaviour of the Openbox window manager,
+for use with BunsenLabs Linux.
+
+The currently implemented modifications are:
+
+*) Inhibit the setting of a background colour,
+which causes a visual blink in the transition
+from the login manager background image to the user wallpaper.
+(Debian bug #843231, fixed in Openbox 3.6.1-5)

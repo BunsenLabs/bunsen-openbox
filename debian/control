@@ -1,0 +1,20 @@
+Source: bunsen-openbox
+Section: misc
+Priority: optional
+Maintainer: John Crawley <john@bunsenlabs.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/BunsenLabs/bunsen-openbox
+Vcs-Git: https://github.com/BunsenLabs/bunsen-openbox.git
+Vcs-Browser: https://github.com/BunsenLabs/bunsen-openbox
+
+Package: bunsen-openbox
+Architecture: all
+Depends: ${misc:Depends}, openbox (<< 3.6.1-5)
+Description: Modify the behaviour of Openbox for BunsenLabs
+ This package modifies the behaviour of the Openbox window manager
+ for use with BunsenLabs.
+ .
+ At present the following actions are performed:
+  - Inhibit the setting of a background colour, described in
+ Debian bug #843231 (fixed in Openbox 3.6.1-5).

@@ -1,0 +1,5 @@
+bunsen-openbox (9.0-1) helium; urgency=low
+
+  * Initial release. (Workaround for openbox: #843231)
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 28 Jul 2018 16:36:21 +0900
